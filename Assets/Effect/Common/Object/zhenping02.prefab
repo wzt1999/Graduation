@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  - component: {fileID: 11400004}
+  - component: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: zhenping02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1002 &100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1002 &400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd1dbe2f7f09b6343afae2fc7c6db5c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bAutoSetLifeTime: 1
+  m_fLifeTime: 2.050537
+  m_fSmoothDestroyTime: 0
+  m_bDisableEmit: 1
+  m_bSmoothHide: 1
+  m_CollisionType: 0
+  m_CollisionLayer:
+    m_Bits: 4294967295
+  m_fCollisionRadius: 0.3
+  m_fDestructPosY: 0.2
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 533d356d6551824478a3d9b4930b2289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d0dba4615c71d45bdbfd7c49b539ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CurveInfoList:
+  - m_bEnabled: 1
+    m_AniCurve:
+      m_Curve:
+      - time: 0
+        value: -0.00017734896
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+      - time: 0.01863761
+        value: 0.11019724
+        inSlope: -1.2279582
+        outSlope: -1.2279582
+        tangentMode: 0
+      - time: 0.037673224
+        value: -0.030518323
+        inSlope: 0.38968736
+        outSlope: 0.38968736
+        tangentMode: 0
+      - time: 0.06519487
+        value: 0.1371446
+        inSlope: -0.07884693
+        outSlope: -0.07884693
+        tangentMode: 0
+      - time: 0.092698395
+        value: -0.05678609
+        inSlope: 1.0289252
+        outSlope: 1.0289252
+        tangentMode: 0
+      - time: 0.12660925
+        value: 0.12057002
+        inSlope: -0.029704062
+        outSlope: -0.029704062
+        tangentMode: 0
+      - time: 0.16261412
+        value: -0.043407675
+        inSlope: -0.96060336
+        outSlope: -0.96060336
+        tangentMode: 0
+      - time: 0.19257145
+        value: 0.1455891
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 0.22448313
+        value: -0.06920798
+        inSlope: 0.07137245
+        outSlope: 0.07137245
+        tangentMode: 0
+      - time: 0.2588817
+        value: 0.13058382
+        inSlope: 0.0739377
+        outSlope: 0.0739377
+        tangentMode: 0
+      - time: 0.29634732
+        value: -0.060189255
+        inSlope: -0.024460416
+        outSlope: -0.024460416
+        tangentMode: 0
+      - time: 0.32166073
+        value: 0.14484635
+        inSlope: -0.29742718
+        outSlope: -0.29742718
+        tangentMode: 0
+      - time: 0.36441824
+        value: -0.072694734
+        inSlope: -0.02101995
+        outSlope: -0.02101995
+        tangentMode: 0
+      - time: 0.40065902
+        value: 0.12764542
+        inSlope: 0.17874095
+        outSlope: 0.17874095
+        tangentMode: 0
+      - time: 0.4392085
+        value: -0.056154165
+        inSlope: -0.21137297
+        outSlope: -0.21137297
+        tangentMode: 0
+      - time: 0.47414196
+        value: 0.1349662
+        inSlope: 0.38874337
+        outSlope: 0.38874337
+        tangentMode: 0
+      - time: 0.5109485
+        value: -0.068989165
+        inSlope: -0.29712915
+        outSlope: -0.29712915
+        tangentMode: 0
+      - time: 0.5357736
+        value: 0.11449532
+        inSlope: 0.42327693
+        outSlope: 0.42327693
+        tangentMode: 0
+      - time: 0.57703495
+        value: -0.049246334
+        inSlope: -0.1995638
+        outSlope: -0.1995638
+        tangentMode: 0
+      - time: 0.6065709
+        value: 0.12058745
+        inSlope: 0.8653943
+        outSlope: 0.8653943
+        tangentMode: 0
+      - time: 0.6454646
+        value: -0.0635751
+        inSlope: -0.52113086
+        outSlope: -0.52113086
+        tangentMode: 0
+      - time: 0.6746829
+        value: 0.08975727
+        inSlope: 1.3272092
+        outSlope: 1.3272092
+        tangentMode: 0
+      - time: 0.7152739
+        value: -0.046194304
+        inSlope: 0.06924285
+        outSlope: 0.06924285
+        tangentMode: 0
+      - time: 0.73914105
+        value: 0.10030586
+        inSlope: -0.5899742
+        outSlope: -0.5899742
+        tangentMode: 0
+      - time: 0.78502494
+        value: -0.05414805
+        inSlope: -0.6045401
+        outSlope: -0.6045401
+        tangentMode: 0
+      - time: 0.8092949
+        value: 0.06914987
+        inSlope: 0.3425032
+        outSlope: 0.3425032
+        tangentMode: 0
+      - time: 0.8387061
+        value: -0.038924634
+        inSlope: -1.2929738
+        outSlope: -1.2929738
+        tangentMode: 0
+      - time: 0.86492854
+        value: 0.08493273
+        inSlope: 0.6559491
+        outSlope: 0.6559491
+        tangentMode: 0
+      - time: 0.9041904
+        value: -0.047972716
+        inSlope: -0.9633973
+        outSlope: -0.9633973
+        tangentMode: 0
+      - time: 0.928362
+        value: 0.051026672
+        inSlope: 0.4232116
+        outSlope: 0.4232116
+        tangentMode: 0
+      - time: 0.9571246
+        value: -0.029536657
+        inSlope: 0.42181462
+        outSlope: 0.42181462
+        tangentMode: 0
+      - time: 0.9787178
+        value: 0.028314408
+        inSlope: 1.0601059
+        outSlope: 1.0601059
+        tangentMode: 0
+      - time: 0.99854654
+        value: -0.00017734896
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 1
+    m_bApplyOption: 
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 0
+    m_nSortGroup: 0
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  m_fDelayTime: 0
+  m_fDurationTime: 2
+  m_bLoop: 0
+  m_bAutoDestruct: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6
